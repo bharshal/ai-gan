@@ -8,8 +8,8 @@ Uses DLib for face alignment
 Uses FaceNet for generating embeddings
 Uses pre-trained TF graph for speech recognition
 
-*code to train speech model for ypur words can be provided if needed
-*no training of models required, only inference performed
+* code to train speech model for ypur words can be provided if needed
+* no training of models required, only inference performed
 
 ### This code is to be run on HiKey970 only. 
 To run on x86_64 computer modifications are required (should be only done if you know what you are doing)
