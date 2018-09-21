@@ -39,16 +39,15 @@ pip install pyaudio; wave; pydub
 find sound card number being used and change accordingly device index in 
 ````/utils/sound_record.py````
 
-In ````/etc/modprobe.d/alsa-base.conf```` change these lines:
+In ````/etc/modprobe.d/alsa-base.conf```` change the index values on these lines:
 ````
-options snd-usb-audio index=0		to $index of microphone card
-options snd-bcm2835 index=1		to $index of microphone card
+options snd-usb-audio index=0		to  (whatever index you find on your device)
+options snd-bcm2835 index=1		
 ````
 
 
 paste .asoundrc in home directory
 and reboot
-
 insmod modules again after reboot
 											   
 
