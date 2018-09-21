@@ -1,11 +1,14 @@
 # AI-Gan final repo
-AI-Gan is a cool demo application on HiKey 970
-Please see [Flow](https://gist.github.com/PurpleBooth/b24679402957c63ec426) 
+AI-Gan is a cool demo application on HiKey 970.
+Please see [Flow](https://github.com/bharshal/ai-gan/blob/master/flow.png) for an idea of what it is.
+Also please see [Block diagram](https://github.com/bharshal/ai-gan/blob/master/flow.png)
 
-## This code is to be run on HiKey970 only. 
+
+
+### This code is to be run on HiKey970 only. 
 To run on x86_64 computer modifications are required (should be only done if you know what you are doing)
 
-## To run this demo you need to connect 2 Arduino Uno boards to HiKey.
+### To run this demo you need to connect 2 Arduino Uno boards to HiKey.
 2 bit signals are passed to Arduinos for 4 different statuses
 
 Arduino no. 1: Servo motor for dispenser
@@ -18,7 +21,7 @@ Arduino no. 2: For LED indications
 337  A0
 501  A1 
 ````
-## Kernel modules inside sound_drivers folder have to be insmod for microphone to work
+### Kernel modules inside sound_drivers folder have to be insmod for microphone to work
 Place them in /lib/modules/...  as directory structure present and then insmod them in order
 chnage name of kernel as per actual kernel name (found using uname -a) 
 ````
@@ -32,7 +35,7 @@ sudo apt-get install portaudio19-dev
 pip install pyaudio; wave; pydub
 ````
 
-## Check which card mic is using in 
+### Check which card mic is using in 
 ````
 /proc/asound/
 ````
