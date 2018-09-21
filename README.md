@@ -41,10 +41,10 @@ find sound card number being used and change accordingly device index in
 
 In ````/etc/modprobe.d/alsa-base.conf```` change these lines:
 ````
-options snd-usb-audio index=0
-options snd-bcm2835 index=1
+options snd-usb-audio index=0		to $index of microphone card
+options snd-bcm2835 index=1		to $index of microphone card
 ````
-to index of microphone card
+
 
 paste .asoundrc in home directory
 and reboot
