@@ -35,10 +35,7 @@ sudo apt-get install portaudio19-dev
 pip install pyaudio; wave; pydub
 ````
 
-### Check which card mic is using in 
-````
-/proc/asound/
-````
+### Check which card mic is using in ````/proc/asound/````
 find sound card number being used and change accordingly device index in 
 ````/utils/sound_record.py````
 
@@ -55,16 +52,23 @@ and reboot
 insmod modules again after reboot
 											   
 
-models directory contains all files that are imported/called by the actual code.
+### models directory contains all files that are imported/called by the actual code.
 
-main_in.py and main_out.py have to be run simultaneously in separate terminals
+### main_in.py and main_out.py have to be run simultaneously in separate terminals
 
-main_in.py has code for input     1)Code to check if a person is present in front of camera or not
-				  2)If person detected, capture face and sound data and recognise word assign it as label 
-				  3)Save data
-main_out.py has code for recognition   1)Code to check if a person is present in front of camera or not
-				       2)If person detected, recognise him and find label
-				       3)Send command to robotic arm only once for each person
+main_in.py has code for input    
+````
+1)Code to check if a person is present in front of camera or not
+2)If person detected, capture face and sound data and recognise word assign it as label 
+3)Save data
+````
+
+main_out.py has code for recognition   
+````
+1)Code to check if a person is present in front of camera or not
+2)If person detected, recognise him and find label
+3)Send command to robotic arm only once for each person
+````
 							       
 							       
 ****Some model files are too big for uploading on git. Contact for details.
