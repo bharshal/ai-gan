@@ -3,10 +3,10 @@ AI-Gan is a cool demo application on HiKey 970.
 Please see [Flow](https://github.com/bharshal/ai-gan/blob/master/flow.png) for an idea of what it is.
 Also please see [Block diagram](https://github.com/bharshal/ai-gan/blob/master/block_diagram.png)
 
-Uses MTCNN for Face detection
-Uses DLib for face alignment
-Uses FaceNet for generating embeddings
-Uses pre-trained TF graph for speech recognition
+Uses MTCNN for Face detection. 
+Uses DLib for face alignment. 
+Uses FaceNet for generating embeddings. 
+Uses pre-trained TF graph for speech recognition.
 
 * code to train speech model for your words can be provided if needed
 * no training of models required, only inference performed
