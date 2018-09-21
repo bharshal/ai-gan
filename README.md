@@ -58,14 +58,15 @@ insmod modules again after reboot
 main_in.py has code for input    
 ````
 1)Code to check if a person is present in front of camera or not
-2)If person detected, capture face and sound data and recognise word assign it as label 
+2)If person detected, capture face data 
+3)Capture voice input, recognise the word and assign it as label 
 3)Save data
 ````
 
 main_out.py has code for recognition   
 ````
 1)Code to check if a person is present in front of camera or not
-2)If person detected, recognise him and find label
+2)If person detected, recognise him/her and find label
 3)Send command to robotic arm only once for each person
 ````
 							       
