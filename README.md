@@ -1,9 +1,8 @@
 # AI-Gan final repo
-AI-Gan is a cool demo application on HiKey 970.
+AI-Gan is a cool demo application on HiKey 970. The flow is as follows:
 
 ![alt text](https://github.com/bharshal/ai-gan/blob/master/flow.png)
 
-Please see [Flow](https://github.com/bharshal/ai-gan/blob/master/flow.png) for an idea of what it is.
 Also please see [Block diagram](https://github.com/bharshal/ai-gan/blob/master/block_diagram.png)
 
 Uses MTCNN for Face detection. 
